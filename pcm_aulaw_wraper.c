@@ -1,4 +1,4 @@
-#include "g711.h"
+#include "pcm_aulaw.h"
 #include "pcm_aulaw_wraper.h"
 
 

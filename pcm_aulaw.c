@@ -38,10 +38,10 @@
  *
  */
 
-#include "g711.h"
+#include "pcm_aulaw.h"
 
 /*
- * g711.c
+ * pcm_aulaw.c
  *
  * u-law, A-law and linear PCM conversions.
  * Source: http://www.speech.kth.se/cost250/refsys/latest/src/g711.c
@@ -310,4 +310,4 @@ ulaw2alaw(
 			   (0x55 ^ (_u2a[0x7F ^ uval] - 1)));
 }
 
-/* ---------- end of g711.c ----------------------------------------------------- */
+/* ---------- end of pcm_aulaw.c ----------------------------------------------------- */

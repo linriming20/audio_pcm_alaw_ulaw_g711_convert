@@ -56,10 +56,10 @@ examples:
 ├── docs
 │   ├── G711编码原理及代码_szfhy的博客-CSDN博客_g711编码.mhtml
 │   └── 音频采样及编解码——LPCM 、ADPCM、G711、G726、AAC_夜风的博客-CSDN博客_adpcm.mhtml
-├── g711.c
-├── g711.h
 ├── main.c
 ├── Makefile
+├── pcm_aulaw.c
+├── pcm_aulaw.h
 ├── pcm_aulaw_wraper.c
 ├── pcm_aulaw_wraper.h
 └── README.md

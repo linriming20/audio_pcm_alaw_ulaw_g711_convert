@@ -1,5 +1,5 @@
 OUTPUT := pcm_alaw_ulaw
-SRC := main.c g711.c g711.h pcm_aulaw_wraper.c pcm_aulaw_wraper.h
+SRC := main.c pcm_aulaw.c pcm_aulaw.h pcm_aulaw_wraper.c pcm_aulaw_wraper.h
 
 CC := gcc
 CFLAG := 
