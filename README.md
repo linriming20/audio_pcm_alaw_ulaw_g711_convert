@@ -12,7 +12,7 @@
 
 ### 1. 编译
 
-demo引用了开源代码[`g711.c`](https://www.speech.kth.se/cost250/refsys/latest/src/g711.c)和[`g711.h`](https://www.speech.kth.se/cost250/refsys/latest/src/g711.h)，然后在此基础上封装成`g711_wraper.c`和`g711_wraper.h`，并编写自己的测试程序`main.c`进行验证。整个demo程序共5个源文件，可以编译到任意环境下使用（非Unix系统可能需要简单调整`main.c`中包含的头文件）：
+demo引用了开源代码[`g711.c`](https://www.speech.kth.se/cost250/refsys/latest/src/g711.c)和[`g711.h`](https://www.speech.kth.se/cost250/refsys/latest/src/g711.h)，然后在此基础上封装成`g711_wraper.c`和`g711_wraper.h`，并编写自己的测试程序`main.c`进行验证。整个demo程序共5个源文件，可以编译到任意环境下使用（非类Unix系统可能需要简单调整`main.c`中包含的头文件）：
 
 ```bash
 $ make   # 或者: make CC=your-crosscompile-gcc
